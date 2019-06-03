@@ -1,0 +1,25 @@
+package stepDefinitions;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class logIn {
+	
+	@Given("open chrome browser and go to NewTours Application")
+	public void open_chrome_browser_and_go_to_NewTours_Application() {
+	    
+	}
+
+	@When("user enters username & password and click on sign in button")
+	public void user_enters_username_password_and_click_on_sign_in_button() {
+	   
+	}
+
+	@Then("user should be able to successfully login and close the application")
+	public void user_should_be_able_to_successfully_login_and_close_the_application() {
+	    
+	}
+
+
+}

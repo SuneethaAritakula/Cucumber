@@ -1,0 +1,8 @@
+Feature: NewTours Application login functionality test
+Scenario: validating login functionality of NewTours Application
+
+Given open chrome browser and go to NewTours Application
+When user enters username & password and click on sign in button
+Then user should be able to successfully login and close the application
+
+

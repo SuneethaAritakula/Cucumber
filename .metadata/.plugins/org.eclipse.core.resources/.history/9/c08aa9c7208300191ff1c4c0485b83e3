@@ -1,0 +1,45 @@
+package seleniumPages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+
+public class Page_GoogleHomepage extends Page_BasePage{
+	
+	public void launchBrowser() {
+		System.setProperty("webdriver.chrome.driver","\\\\LPT01\\Users\\Administrator\\Desktop\\Cucumber\\Cucumber\\driverFiles\\chromedriver.exe");
+		driver = new ChromeDriver();
+		
+	}
+	
+	public void openGoogleURL() {
+		driver.get("http://www.google.com");
+	}
+	
+	public void checkSearchBoxIsDisplayed() {
+    driver.findElement(By.name("q")).isDisplayed();
+				}
+	
+		
+		public void checkGoogleSearchButtonIsDisplayed() {
+		driver.findElement(By.name("btnK")).isDisplayed();
+	
+			}
+		
+		
+		public void checkImFeelingLuckyButtonIsDisplayed() {
+		driver.findElement(By.name("btnI")).isDisplayed();
+		
+		}
+		
+	
+		}
+			
+
+	
+	
+		
+		
+
+

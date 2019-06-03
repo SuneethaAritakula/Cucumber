@@ -1,0 +1,10 @@
+package newToursApplication;
+
+import org.openqa.selenium.WebDriver;
+
+public class LogInTest {
+	
+	WebDriver driver = null;
+	
+
+}

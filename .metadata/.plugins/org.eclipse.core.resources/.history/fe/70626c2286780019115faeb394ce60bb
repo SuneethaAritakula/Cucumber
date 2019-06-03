@@ -1,0 +1,20 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class basePage {
+	
+	WebDriver driver = null;
+	String url = "www.newtours.demoaut.com";
+	
+	public void setup() {
+		
+	System.setProperty("webdriver.chrome.driver", "\\LPT01\\Users\\Administrator\\Desktop\\Cucumber\\Cucumber\\driverFiles\\chromedriver.exe");
+	driver = new ChromeDriver();
+	}
+	
+
+	
+
+}
