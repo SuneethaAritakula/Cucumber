@@ -23,7 +23,7 @@ public class Page_GoogleHomepage extends Page_BasePage{
     }
     	else
     		{
-    		System.out.println("search box is not displayed");
+    		System.out.println("search box is not displayed please check again") ;
         }
 
 				}
