@@ -1,0 +1,71 @@
+package stepDefinitions;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class yahooLogin {
+	
+	yahooLogin Yahoologin = new yahooLogin();
+	
+	@Given("^I navigate to Yahoo Log in page$")
+	/*public void i_navigate_to_Yahoo_Log_in_page() throws Exception{
+		Yahoologin. navigatetoyahoologinpage();
+	    
+	}
+
+	@Then("^I verify username field is available$")
+	public void i_verify_username_field_is_available() {
+	  Yahoologin.verifyusernamefieldisavailable();
+	}
+
+	@Then("^I verify next tab is available$")
+	public void i_verify_next_tab_is_available() {
+	   Yahoologin.verifynexttabisavailable();
+	}
+
+	@Then("^I verify stay signed in check box is available$")
+	public void i_verify_stay_signed_in_check_box_is_available() {
+	   Yahoologin.verifystaysignedincheckboxisavailable();
+
+	@Then("^I verify Trouble Signing in text is available$")
+	public void i_verify_Trouble_Signing_in_text_is_available() {
+	   Yahoologin.verifytroublesigniningintextisavailable();
+	}
+
+	@Then("^I verify create account atb is available$")
+	public void i_verify_create_account_atb_is_available() {
+	    Yahoologin.verifycreateaccountatbisavailable();
+	}
+
+	@Given("^I am on Yahoo log in page$")
+	public void i_am_on_Yahoo_log_in_page() {
+	    Yahoologin.IamonYahoologinpage();
+	}
+
+	@When("^I input Username$")
+	public void i_input_Username() {
+	    Yahoologin.Iinputusername();
+	}
+
+	@When("^click on next tab$")
+	public void click_on_next_tab() {
+	    Yahoologin.clickonnexttab();
+	}
+
+	@Then("^I input password$")
+	public void i_input_password() {
+	   Yahoologin.inputpassword();
+	}
+
+	@Then("^click on sign in tab$")
+	public void click_on_sign_in_tab() {
+	    Yahoologin.clickonsignin();
+	}
+
+	@Then("^I should be able to successfully login$")
+	public void i_should_be_able_to_successfully_login() {
+	    Yahoologin.successfullogin();
+	}
+
+}*/

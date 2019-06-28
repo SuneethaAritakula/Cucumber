@@ -1,0 +1,48 @@
+package seleniumPages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Page_Yahoomainpage extends Page_BasePage {
+	
+	public void yahoologinpage() {
+		
+		
+	}
+	
+	public void myyahooaccount() {
+	}
+	
+	
+	public void verifynameisdisplayed() throws InterruptedException  {
+
+	}
+	
+	public void mouseover() {
+		Actions Act = new Actions(driver);
+		////*[@id="yui_3_18_0_3_1560541402905_783"]
+		//*[@id="yui_3_18_0_3_1560457801500_766"]
+		Act.moveToElement(driver.findElement(By.xpath("//*[@id=\\'yui_3_18_0_3_1560541402905_783\\']"))).perform();
+		//"uh-settings"
+		driver.findElement(By.id("uh-settings")).click();
+		
+			}
+	public void usernameandemailaddressdisplayed() {
+		
+	}
+	
+	public void accountinfolinkisdisplayed() {
+		
+	}
+	
+	public void Iclickonthislink() {
+		
+	}
+	public void personalinfodisplayed() {
+		
+	}
+	}
+
+
+

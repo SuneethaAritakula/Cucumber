@@ -1,0 +1,36 @@
+package seleniumPages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
+
+public class Page_Yahoomainpage extends Page_BasePage {
+	
+	public void myyahooaccount() {
+		
+	}
+	
+	public void verifynameisdisplayed() {
+	////*[@id="yui_3_18_0_3_1560436483472_783"]
+		////*[@id="yui_3_18_0_3_1560457801500_766"]
+	driver.findElement(By.xpath("//*[@id='yui_3_18_0_3_1560436483472_766']"));
+	}
+	
+	public void mouseover() {
+		Actions Act = new Actions(driver);
+		
+		//*[@id="yui_3_18_0_3_1560457801500_766"]
+		Act.moveToElement(driver.findElement(By.xpath("//*[@id=\\'yui_3_18_0_3_1560457801500_766\\']"))).perform();
+		//"uh-settings"
+		driver.findElement(By.id("uh-settings")).click();
+		
+		
+				
+				
+
+		
+		
+		
+	}
+
+}
+

@@ -1,0 +1,45 @@
+package seleniumPages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Page_Yahoomainpage extends Page_BasePage {
+	
+	public void yahoologinpage() {
+		
+		
+	}
+	
+	public void myyahooaccount() {
+	}
+	
+	
+	public void verifynameisdisplayed() throws InterruptedException  {
+	////*[@id="yui_3_18_0_3_1560436483472_783"]
+		////*[@id="yui_3_18_0_3_1560457801500_766"]
+		Thread.sleep(5000);
+		
+		//<span class="D(ib) Maw(100px) Ov(h) Whs(nw) Tov(e) Lh($userNavTextLh) Pstart(8px) Fz(14px) Fw(b) Va(t) ua-ie7_D(n) C(#4d00ae)" id="yui_3_18_0_3_1560541402905_783">Suneetha</span>
+	driver.findElement(By.id("'yui_3_18_0_3_1560541402905_783'"));
+	}
+	
+	public void mouseover() {
+		Actions Act = new Actions(driver);
+		
+		//*[@id="yui_3_18_0_3_1560457801500_766"]
+		Act.moveToElement(driver.findElement(By.xpath("//*[@id=\\'yui_3_18_0_3_1560457801500_766\\']"))).perform();
+		//"uh-settings"
+		driver.findElement(By.id("uh-settings")).click();
+		
+		
+				
+				
+
+		
+		
+		
+	}
+
+}
+
