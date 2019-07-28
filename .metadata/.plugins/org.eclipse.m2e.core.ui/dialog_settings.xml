@@ -57,12 +57,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="inetbankingv1.inetbankingv1"/>
 			<item value="Cucumber.Cucumber"/>
 		</list>
 		<list key="groupId">
+			<item value="inetbankingv1"/>
 			<item value="Cucumber"/>
 		</list>
 		<list key="artifactId">
+			<item value="inetbankingv1"/>
 			<item value="Cucumber"/>
 		</list>
 		<list key="projectNameTemplate">
